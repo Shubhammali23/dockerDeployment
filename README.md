@@ -52,3 +52,14 @@ docker run --name sprinbootcrudnew-app --link crud:mysql -p 8081:8081 -d springb
 docker run --name (name which we want on docker for container) --link (name given to mysql):mysql -p (port of local jar):(port of docker where we want to run on docker) -d (name given while building):()
 
 access api on postman using localhost and port 8081 of docker
+
+-------------------------------------------------------------------------------
+integrate gemini
+https://www.youtube.com/watch?v=rrNRGsJbFZc&t=507s
+
+need to add gemini key in environment variable of intellij idea of the project 
+ go in edit configuration by clicking arrow near to run symbol
+click on modify option
+click on environment variable
+paste GOOGLE_API_KEY=AIzaSyAf6zKYsbg29CMez_Kln9AVCZQItdqXa30
+then apply and ok
